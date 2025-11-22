@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2 class="text-center">Delete Task</h2>
+<p class="text-center">
+    Are you sure you want to delete "<strong>{{ task.title }}</strong>" ?
+</p>
+<div class="d-flex justify-content-center gap-2 mt-4">
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger px-4">Delete</button>
+    </form>
+    <a href="{% url 'project_detail' task.project.pk %}" class="btn btn-success px-4">Cancel</a>
+</div>
+
+{% endblock %}
