@@ -42,7 +42,7 @@ Follow these steps to run this Django project.
 ### Run the Development Server
 -python manage.py runserver
 
-Open in any browser: Your project will now load successfully.
+-Open in any browser
 
 ### Notes
 - Python 3.10+ will work, but 3.13 is recommended.
