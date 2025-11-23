@@ -1,7 +1,6 @@
 ## Project Management App
-
-A simple Django-based Project Management App built for the Django Internship Task.  
-It allows you to create Projects and manage Tasks under each project with full CRUD operations.
+- A simple Django-based Project Management App built with Django.
+- It allows you to create Projects and manage Tasks under each project with full CRUD operations.
 
 ### Project Module
 - Create, view, edit, delete projects  
