@@ -26,11 +26,17 @@ Follow these steps to run this Django project.
 
 ### Install Django 5.2.5
 - Run this command: pip install Django==5.2.5
-
 - Check the Django version: python -m django --version
 
 ### Download This Project
-- Download Zip or Clone using Git.
+- Download Zip and UnZip it in your system.
+
+### Open the Project Folder in Command Prompt / Terminal
+
+- Go to your Downloads folder: cd %HOMEPATH%\Downloads
+- Find your project folder name (example: Project-Management-App-main)
+- Enter the project folder: cd Project-Management-App-main
+- Make sure the folder contains manage.py
 
 ### Install Dependencies
 - Inside the project folder run: pip install -r requirements.txt
@@ -40,7 +46,6 @@ Follow these steps to run this Django project.
 
 ### Run the Development Server
 - python manage.py runserver
-
 - Open in any browser
 
 ### Notes
