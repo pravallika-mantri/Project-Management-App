@@ -26,23 +26,23 @@ Follow these steps to run this Django project.
 5. Verify installation Run: python --version
 
 ### Install Django 5.2.5
--Run this command: pip install Django==5.2.5
+- Run this command: pip install Django==5.2.5
 
--Check the Django version: python -m django --version
+- Check the Django version: python -m django --version
 
 ### Download This Project
 - Download Zip or Clone using Git.
 
 ### Install Dependencies
--Inside the project folder run: pip install -r requirements.txt
+- Inside the project folder run: pip install -r requirements.txt
 
 ### Apply Database Migrations
--python manage.py migrate (Optional)
+- python manage.py migrate (Optional)
 
 ### Run the Development Server
--python manage.py runserver
+- python manage.py runserver
 
--Open in any browser
+- Open in any browser
 
 ### Notes
 - Python 3.10+ will work, but 3.13 is recommended.
