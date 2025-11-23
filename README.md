@@ -36,8 +36,7 @@ Follow these steps to run this Django project.
 -Inside the project folder run: pip install -r requirements.txt
 
 ### Apply Database Migrations
--python manage.py makemigrations
--python manage.py migrate
+-python manage.py migrate (Optional)
 
 ### Run the Development Server
 -python manage.py runserver
