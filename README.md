@@ -27,6 +27,7 @@ Follow these steps to run this Django project.
 
 ### Install Django 5.2.5
 -Run this command: pip install Django==5.2.5
+
 -Check the Django version: python -m django --version
 
 ### Download This Project
